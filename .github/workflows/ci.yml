@@ -5,7 +5,16 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
     steps:
-    - uses: actions/checkout@v1
-    - name: Install python3-venv
-      run: sudo apt-get install -y python3-venv
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install venv and dependencies
+      run: ./setup.py
+    - name: pylint
+      run: ./run-pylint.sh
