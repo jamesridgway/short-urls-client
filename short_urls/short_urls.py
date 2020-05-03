@@ -34,7 +34,6 @@ class ShortUrls:
         request = requests.delete('https://{}/admin/{}'.format(self.domain, token), headers=self.__headers())
 
         if request.status_code == 200:
-            response = request.json()
             return True
         return False
 
