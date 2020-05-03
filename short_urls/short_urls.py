@@ -33,9 +33,7 @@ class ShortUrls:
         token = url.split('/')[-1]
         request = requests.delete('https://{}/admin/{}'.format(self.domain, token), headers=self.__headers())
 
-        if request.status_code == 200:
-            return True
-        return False
+        return request.status_code == 200
 
     def __headers(self):
         return {

@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.23.0
+      x-api-key:
+      - letmein
+    method: DELETE
+    uri: https://mydoma.in/admin/short-urls-client
+  response:
+    body:
+      string: '{}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Security-Policy:
+      - default-src 'none'; img-src 'self' www.google-analytics.com ; script-src 'self'
+        'unsafe-inline' www.google-analytics.com www.googletagmanager.com; style-src
+        'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.googleapis.com
+        fonts.gstatic.com; object-src 'none'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 03 May 2020 19:19:21 GMT
+      Referrer-Policy:
+      - same-origin
+      Server:
+      - CloudFront
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Via:
+      - 1.1 13381fd50efa5561b2ef8fff32bb471b.cloudfront.net (CloudFront), 1.1 d3039728d92283a8b0f65ad1f1f3b81b.cloudfront.net
+        (CloudFront)
+      X-Amz-Cf-Id:
+      - Lnly_3m-nDleAzknkSNpZJxAQt15E3Imk4WEj5sXh1Dc4jwrVXav5A==
+      X-Amz-Cf-Pop:
+      - LHR3-C2
+      - DUB2-C1
+      X-Amzn-Trace-Id:
+      - Root=1-5eaf1939-7b27ddd0bd628b60f20b46b0;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+      feature-policy:
+      - accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none';
+        magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+      x-amz-apigw-id:
+      - L-Dg_HwqDoEFxjw=
+      x-amzn-RequestId:
+      - 12b504c5-dd25-42ce-bbcf-d361c8333978
+    status:
+      code: 400
+      message: Bad Request
+version: 1

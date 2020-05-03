@@ -1,0 +1,85 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.23.0
+      x-api-key:
+      - T0InnMV5cu8tmHr89P6q47YNAh85oLZH5LdaGflI
+    method: GET
+    uri: https://jmsr.io/admin
+  response:
+    body:
+      string: '{"urls": {"https://jmsr.io/1HiGTG": "https://www.james-ridgway.co.uk/blog/the-challenge-run-on-aws-ec2-spot-instances",
+        "https://jmsr.io/2TOBc6": "https://www.james-ridgway.co.uk/blog/building-immutable-server-images-with-saltstack-and-packer",
+        "https://jmsr.io/6zUUyd": "https://www.james-ridgway.co.uk/blog/dotfiles-with-github-travis-ci-and-docker",
+        "https://jmsr.io/89XEhh": "https://www.james-ridgway.co.uk/blog/automating-google-apps-with-apps-script-and-javascript",
+        "https://jmsr.io/KytZYP": "https://www.james-ridgway.co.uk/blog/building-infrastructure-for-immutable-web-applications-with-terraform",
+        "https://jmsr.io/PSWnJz": "https://www.james-ridgway.co.uk/blog/immutable-servers-building-a-deployment-pipeline-and-deploying-to-ec2-spot-instances",
+        "https://jmsr.io/W3EbI0": "https://www.james-ridgway.co.uk/blog/planning-a-migration-to-spot-instances",
+        "https://jmsr.io/bIl9Fm": "https://www.james-ridgway.co.uk/blog/applying-security-headers-on-serverless-infrastructure-with-aws-lambda-edge",
+        "https://jmsr.io/bgPtxY": "https://www.james-ridgway.co.uk/blog/upgrading-a-thinkpad-t450s-with-an-m-2-ssd",
+        "https://jmsr.io/cwM1iQ": "https://www.james-ridgway.co.uk/blog/build-your-own-custom-short-url-generator-using-aws",
+        "https://jmsr.io/dotfiles.sh": "https://raw.githubusercontent.com/jamesridgway/dotfiles/master/dotfiles.sh",
+        "https://jmsr.io/gx9lgc": "https://www.jamesridgway.co.uk", "https://jmsr.io/l81ChB":
+        "https://www.jamesridgway.co.uk/speaking/2019-05-16-nwrug-immutable-servers",
+        "https://jmsr.io/osRz7V": "https://www.james-ridgway.co.uk/blog/the-evolution-of-the-nerd-kit",
+        "https://jmsr.io/test": "https://github.com/jamesridgway/short-urls-client",
+        "https://jmsr.io/wZPo6s": "https://files.james-ridgway.co.uk/talks/2019-04-25-immutable-servers.pdf"}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1783'
+      Content-Security-Policy:
+      - default-src 'none'; img-src 'self' www.google-analytics.com ; script-src 'self'
+        'unsafe-inline' www.google-analytics.com www.googletagmanager.com; style-src
+        'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.googleapis.com
+        fonts.gstatic.com; object-src 'none'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 03 May 2020 19:08:55 GMT
+      Referrer-Policy:
+      - same-origin
+      Server:
+      - CloudFront
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Via:
+      - 1.1 9fef32c73ce85aca1efbc12a810558ca.cloudfront.net (CloudFront), 1.1 a9b2260e7964d946bfaccecd2e947939.cloudfront.net
+        (CloudFront)
+      X-Amz-Cf-Id:
+      - ZSdPXeb0zrDGF2jbHkyEqbz8w4k-hgc8GfBcliT6RbM7MwXSCPm_4w==
+      X-Amz-Cf-Pop:
+      - LHR3-C2
+      - DUB2-C1
+      X-Amzn-Trace-Id:
+      - Root=1-5eaf16c4-48d10058aed5f5c63ba76cc8;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+      feature-policy:
+      - accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none';
+        magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+      x-amz-apigw-id:
+      - L-B-vFvmjoEFguQ=
+      x-amzn-RequestId:
+      - f51d3a95-aa3e-4d32-80c4-9c4897bbb864
+    status:
+      code: 200
+      message: OK
+version: 1

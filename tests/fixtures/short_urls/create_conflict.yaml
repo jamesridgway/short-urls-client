@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: '{"url": "https://github.com/jamesridgway/short-urls-client"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '60'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.23.0
+      x-api-key:
+      - letmein
+    method: POST
+    uri: https://mydoma.in/admin
+  response:
+    body:
+      string: '{"error": "The token has already been taken"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '45'
+      Content-Security-Policy:
+      - default-src 'none'; img-src 'self' www.google-analytics.com ; script-src 'self'
+        'unsafe-inline' www.google-analytics.com www.googletagmanager.com; style-src
+        'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.googleapis.com
+        fonts.gstatic.com; object-src 'none'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 03 May 2020 19:16:01 GMT
+      Referrer-Policy:
+      - same-origin
+      Server:
+      - CloudFront
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Via:
+      - 1.1 ab76bbd6b801f08301c49a66004b9188.cloudfront.net (CloudFront), 1.1 c416f79611bca57dde019f04fe3cc36f.cloudfront.net
+        (CloudFront)
+      X-Amz-Cf-Id:
+      - 3tM1CfrqZ4e8gU2U6Nah_DQSvqPjpOq0t_Ua_iisITL-aCkDPnTv0Q==
+      X-Amz-Cf-Pop:
+      - LHR3-C2
+      - DUB2-C1
+      X-Amzn-Trace-Id:
+      - Root=1-5eaf1870-5b5282fd7d3334917c2e3697;Sampled=0
+      X-Cache:
+      - Error from cloudfront
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+      feature-policy:
+      - accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none';
+        magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+      x-amz-apigw-id:
+      - L-DBoGcpDoEFoUQ=
+      x-amzn-RequestId:
+      - 8d902340-aade-44a7-96be-ab1f01403a21
+    status:
+      code: 409
+      message: Conflict
+version: 1

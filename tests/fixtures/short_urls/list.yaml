@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.23.0
+      x-api-key:
+      - letmein
+    method: GET
+    uri: https://mydoma.in/admin
+  response:
+    body:
+      string: '{"urls": {
+        "https://jmsr.io/cwM1iQ": "https://www.james-ridgway.co.uk/blog/build-your-own-custom-short-url-generator-using-aws",
+        "https://jmsr.io/dotfiles.sh": "https://raw.githubusercontent.com/jamesridgway/dotfiles/master/dotfiles.sh"}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1783'
+      Content-Security-Policy:
+      - default-src 'none'; img-src 'self' www.google-analytics.com ; script-src 'self'
+        'unsafe-inline' www.google-analytics.com www.googletagmanager.com; style-src
+        'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.googleapis.com
+        fonts.gstatic.com; object-src 'none'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 03 May 2020 19:06:20 GMT
+      Referrer-Policy:
+      - same-origin
+      Server:
+      - CloudFront
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Via:
+      - 1.1 a1f249a9bf642aa76e446956825f42a6.cloudfront.net (CloudFront), 1.1 4d054711fa046225c14d8fd7485a4718.cloudfront.net
+        (CloudFront)
+      X-Amz-Cf-Id:
+      - iU50Wb0t8TIX23VmvWoLwZkhG94YdLV3LIMCsID-yt0aal4U_yUD2Q==
+      X-Amz-Cf-Pop:
+      - LHR3-C2
+      - DUB2-C1
+      X-Amzn-Trace-Id:
+      - Root=1-5eaf1627-11d0ed1d0267198178eb177e;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-XSS-Protection:
+      - 1; mode=block
+      feature-policy:
+      - accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none';
+        magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+      x-amz-apigw-id:
+      - L-BmQFcIjoEFZSQ=
+      x-amzn-RequestId:
+      - 250d525e-02ba-4519-a769-9f7cdacd0621
+    status:
+      code: 200
+      message: OK
+version: 1
