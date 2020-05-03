@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='attachment-downloader',
-    version='1.1.2',
-    description='Simple tool for downloading email attachments for all emails in a given folder using an IMAP client.',
-    long_description=open('README.rst').read(),
+    name='short-urls-client',
+    version='1.0.0',
+    description='A python client for the https://github.com/jamesridgway/aws-lambda-short-url project.',
+    long_description=open('README.md').read(),
     author='James Ridgway',
-    url='https://github.com/jamesridgway/attachment-downloader',
+    url='https://github.com/jamesridgway/short-urls-client',
     license='MIT',
-    packages=['attachment_downloader'],
-    scripts=['bin/attachment-downloader'],
-    install_requires=["jinja2", "imbox"]
+    packages=['short_urls'],
+    scripts=['bin/short-urls'],
+    install_requires=["pyperclip", "requests"]
 )
