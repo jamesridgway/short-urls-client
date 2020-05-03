@@ -18,3 +18,5 @@ jobs:
       run: ./setup.sh
     - name: pylint
       run: ./run-pylint.sh
+    - name: Tests
+      run: ./run-tests.sh

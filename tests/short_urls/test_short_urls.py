@@ -1,0 +1,2 @@
+class TestShortUrls:
+    pass
