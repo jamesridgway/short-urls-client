@@ -4,13 +4,14 @@
 A python client for my [aws-lambda-short-url](https://github.com/jamesridgway/aws-lambda-short-url) project.
 
 ## Installation
-TODO
+
+    pip install short-urls-client
 
 ## Usage
 
 ### Setup credentials
 
-    short-urls config mydoma.in MyApiKey-l3tm31n
+    short-urls config -d mydoma.in -a MyApiKey-l3tm31n
 
 ### List all URLs
 
